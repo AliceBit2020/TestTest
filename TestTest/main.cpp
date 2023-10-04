@@ -286,6 +286,7 @@ void del_data(MyArr& point);
 void show_data(MyArr& point);
 void destroy_data(MyArr& point);
 int cin_check();
+void FuncBr1();
 
 int main()
 {
@@ -325,7 +326,7 @@ int main()
 
 	cout << "1 main" << endl;
 
-
+	cout << "Hello from Br1" << endl;
 
 	return(NULL);
 }
@@ -464,4 +465,10 @@ int cin_check()
 			ru_sms("¬ведите число больше нул€: ");
 		}
 	}
+}
+
+void FuncBr1()
+{
+	cout << "Hello from Br1" << endl;
+
 }
